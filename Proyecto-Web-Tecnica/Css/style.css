@@ -532,3 +532,58 @@ p{
     }
 }
 
+@media (max-width: 502px ){
+    .section1 > .div1 > .div2, .section1 > .div1 > .div2 > .img1, .section2 > .div4, .section2 > .div4 > .img2, .section4 > .div5, .section4 > .div5 > .img3{
+        width: 400px;
+        height: 400px;
+        left: 8%;
+    }
+
+    .section2 > .div4 > .img2, .section1 > .div1 > .div2 > .img1{
+        left: 2%;
+    }
+
+    .section1 > .div1 > .div2 > .div3 > h1{
+        left: 85px;
+    }
+
+    .section1 > .div1 > .div2 > .div3 > p{
+        left: 94px;
+    }
+
+    .section1 > .div1 > .div2 > .div3 > a{
+        width: 184px;
+        height: 72px;
+        left: 22%;
+    }
+
+    .section2 > .div4 > p{
+        top: 144px;
+        font-size: 14px;
+    }
+
+    .section4 > .div5 > p ,.section4 > .div5 > h2 {
+        height: 15px;
+        left: 22%;
+    }
+}
+
+@media (max-width: 455px ){
+    .section1 > .div1 > .div2, .section1 > .div1 > .div2 > .img1, .section2 > .div4, .section2 > .div4 > .img2, .section4 > .div5, .section4 > .div5 > .img3{
+        left: 4%;
+    }
+
+    .section2 > .div4 > .img2, .section1 > .div1 > .div2 > .img1, .section4 > .div5 > .img3{
+        left: 1%;
+    }
+}
+
+@media (max-width: 425px ){
+    .section1 > .div1 > .div2, .section1 > .div1 > .div2 > .img1, .section2 > .div4, .section2 > .div4 > .img2, .section4 > .div5, .section4 > .div5 > .img3{
+        left: 0%;
+    }
+
+    .section2 > .div4 > .img2, .section1 > .div1 > .div2 > .img1, .section4 > .div5 > .img3{
+        left: 0%;
+    }
+}
